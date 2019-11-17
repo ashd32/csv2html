@@ -1,0 +1,30 @@
+branches:
+  only:
+  - master
+
+language: python
+
+python:
+- '3.4'
+
+install:
+- pip install --upgrade -r requirements.txt
+
+cache:
+  directories:
+  - "$HOME/.cache/pip"
+
+dist: trusty
+sudo: false
+
+addons:
+  postgresql: '9.6'
+
+before_script:
+- cp project_2/app_config.py.example project_2/app_config.py
+
+script:
+- pytest -v --cov project_2 tests
+
+after_success:
+- coveralls

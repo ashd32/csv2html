@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/csv-to-html-table-master.iml" filepath="$PROJECT_DIR$/.idea/csv-to-html-table-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/flask_app_template-master.iml" filepath="$PROJECT_DIR$/.idea/flask_app_template-master.iml" />
     </modules>
   </component>
 </project>
