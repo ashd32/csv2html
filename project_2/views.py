@@ -16,3 +16,12 @@ def index():
 def about():
     return render_template('about.html')
 
+@views.route('/index2/')
+def about():
+    return render_template('index2.html')
+
+@views.route('/index3/')
+def about():
+    return render_template('index3.html')
+
+
